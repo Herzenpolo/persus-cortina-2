@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import Link from 'react-router-dom'
+import {Link} from 'react-router-dom'
 import { Nav, Button, NavLink } from 'reactstrap';
 
 
@@ -13,10 +13,10 @@ export default class NavbarApp extends Component {
         return (
             <div>
                 <Nav className = 'navBarContainer'>
-                    <NavLink className = 'navLink' href="/">Home</NavLink> 
+                    <Link className = 'navLink' to="/">Home</Link> 
                     {/* <NavLink className = 'navLink' href="/aboutus">About Us</NavLink>  */}
-                    <NavLink className = 'navLink' href="/privacy">Privacy Policy</NavLink> 
-                    <NavLink className = 'navLink' href="/terms">Terms & Conditions</NavLink>
+                    <Link className = 'navLink' to="/privacy">Privacy Policy</Link> 
+                    <Link className = 'navLink' to="/terms">Terms & Conditions</Link>
                 </Nav>
             </div>
         )
