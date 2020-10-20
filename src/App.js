@@ -5,7 +5,7 @@ import Home from './components/Home'
 import Privacy from './components/Privacy'
 import Terms from './components/Terms'
 import { Switch, Link, Route } from 'react-router-dom'
-import Navbar from './components/Navbar'
+import Navbar from './components/NavbarApp'
 
 
 class App extends Component { 
@@ -44,7 +44,7 @@ class App extends Component {
             />
           )}
         />
-        <Route
+        {/* <Route
           exact
           path="/aboutus"
           render={(props) => (
@@ -52,7 +52,7 @@ class App extends Component {
               {...props}
             />
           )}
-        />
+        /> */}
       </Switch>
     </div>
       </div>
