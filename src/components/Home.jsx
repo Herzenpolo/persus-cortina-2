@@ -4,7 +4,7 @@ export default class Home extends Component {
     render() {
         return (
             <div className = 'homeDiv'>
-                <img className='homeImage' src={require("./images/Walking-logo.png")} alt=""/>
+                <img className='homeImage' src={require("./images/persus_LP_img.png")} alt=""/>
                 <h2>Who are we?</h2>
                 <p>
                     We are a group of people passionate about making a change in the world. 2020 tried to knock us down but, but in the midst of the pandemic we came to realize that we 
